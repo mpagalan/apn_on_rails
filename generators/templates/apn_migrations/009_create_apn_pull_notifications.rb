@@ -1,4 +1,4 @@
-class CreatePullNotifications < ActiveRecord::Migration
+class CreateApnPullNotifications < ActiveRecord::Migration
   def self.up
     create_table :apn_pull_notifications do |t|
       t.integer :app_id

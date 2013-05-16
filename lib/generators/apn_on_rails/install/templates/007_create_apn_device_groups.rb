@@ -1,4 +1,4 @@
-class CreateDeviceGroups < ActiveRecord::Migration # :nodoc:
+class CreateApnDeviceGroups < ActiveRecord::Migration # :nodoc:
   def self.up
     drop_table :apn_devices_apn_groups
 
