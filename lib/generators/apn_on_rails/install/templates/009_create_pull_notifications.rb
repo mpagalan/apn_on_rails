@@ -5,6 +5,7 @@ class CreatePullNotifications < ActiveRecord::Migration
       t.string  :title
       t.string  :content
       t.string  :link
+      t.boolean :launch_notification
 
       t.timestamps
     end

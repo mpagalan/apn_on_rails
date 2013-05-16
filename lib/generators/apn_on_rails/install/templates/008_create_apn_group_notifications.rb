@@ -1,5 +1,5 @@
 class CreateApnGroupNotifications < ActiveRecord::Migration # :nodoc:
-  
+
   def self.up
 
     create_table :apn_group_notifications do |t|
@@ -12,12 +12,12 @@ class CreateApnGroupNotifications < ActiveRecord::Migration # :nodoc:
       t.datetime :sent_at
       t.timestamps
     end
-    
+
     add_index :apn_group_notifications, :group_id
   end
 
   def self.down
     drop_table :apn_group_notifications
   end
-  
+
 end

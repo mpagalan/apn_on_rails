@@ -1,4 +1,4 @@
-class CreateGroups < ActiveRecord::Migration # :nodoc:
+class CreateApnGroups < ActiveRecord::Migration # :nodoc:
   def self.up
     create_table :apn_groups do |t|
       t.column :name, :string
